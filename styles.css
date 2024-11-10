@@ -1,0 +1,165 @@
+/* Basic styling for layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+/* Team Section Styles */
+.team-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.team-member {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team-member h3 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Games Section Styles */
+.games-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.game-item {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-item:hover {
+  transform: scale(1.05); /* Slightly enlarge the game item on hover */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.game-item h3 a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.game-item h3 a:hover {
+  color: #0073e6;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.published {
+  color: green;
+}
+
+.private {
+  color: red;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between; /* Aligns items to both sides */
+  align-items: center; /* Vertically centers the items */
+}
+
+footer p {
+  margin: 0; /* Removes default margin */
+}
+
+/* Discord Button Style */
+.discord-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7289da; /* Discord blue color */
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none; /* Removes underline */
+  font-size: 16px;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.discord-button:hover {
+  background-color: #5b6e99; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Discord Icon Style */
+.discord-icon {
+  width: 30px; /* Adjust size of the icon */
+  height: 30px; /* Adjust size of the icon */
+  margin: 5px; /* Optional: space around the icon */
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out; /* Adds hover effect */
+}
+
+.discord-icon:hover {
+  transform: scale(1.1); /* Slightly enlarges the icon when hovered */
+}
