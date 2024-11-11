@@ -98,10 +98,20 @@ p {
   color: #333;
   text-decoration: none;
   font-size: 1.2em;
+  display: inline-flex;
+  align-items: center; /* Vertically aligns the image and text */
 }
 
 .game-item h3 a:hover {
   color: #0073e6;
+}
+
+/* Icon Styling for Game Button */
+.button-icon {
+  width: 20px; /* Adjust the icon size */
+  height: 20px;
+  margin-right: 8px; /* Adds spacing between the icon and text */
+  vertical-align: middle; /* Aligns the icon with the text */
 }
 
 .status {
