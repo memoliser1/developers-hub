@@ -118,6 +118,34 @@ p {
   color: red;
 }
 
+/* News Section Styles */
+.news-update {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.news-update .headline {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  margin-top: 20px;
+}
+
+.news-video {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 /* Footer styles */
 footer {
   background-color: #333;
